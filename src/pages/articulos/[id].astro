@@ -31,7 +31,7 @@ const icon = getIcon(post.data.category);
 ---
 
 <Layout title={post.data.title}>
-  <div class="max-w-screen-lg px-4 pt-12 pb-20 mx-auto">
+  <div class="article-container max-w-screen-lg px-4 pt-12 pb-20 mx-auto">
     <div class="flex justify-between items-start mb-2.5 gap-2.5">
       <div>
         <h1 class="text-cyan-300 text-3xl font-bold mb-1">{post.data.title}</h1>
@@ -54,3 +54,13 @@ const icon = getIcon(post.data.category);
     <!-- TODO: Add related articles -->
   </div>
 </Layout>
+
+<style>
+  .article-container {
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  h1 {
+    font-family: "Space Grotesk Variable", sans-serif !important;
+  }
+</style>
