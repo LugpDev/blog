@@ -1,22 +1,33 @@
 ---
-import avatar from "../images/avatar.png";
+import profile from "../images/profile.jpg";
 import { Image } from "astro:assets";
 ---
 
 <section
   class="flex flex-col gap-10 py-7 px-4 items-center justify-center bg-cyan-300/10 md:py-12 md:px-12 md:flex-row md:gap-[75px] lg:px-[175px]"
 >
-  <Image src={avatar} alt="avatar" width="192" class="rounded-full" />
+  <Image
+    src={profile}
+    alt="Foto de Luis Cervantes"
+    width="192"
+    class="rounded-full"
+  />
 
   <div class="text-center md:text-left text-pretty">
-    <h2 class="text-cyan-300 font-semibold text-2xl mb-5">Sobre el autor</h2>
+    <h2 class="subtitle">Sobre el autor</h2>
     <p>
-      ¡Hola! Soy Luis Cervantes, y mi pasión por la programación comenzó cuando
-      estaba en primer año de secundaria. Como todos los programadores, me he
-      enfrentado a numerosos retos a lo largo de mi trayectoria. Este blog es mi
-      granito de arena para hacer que el camino hacia la cima sea un poco más
-      sencillo y para inspirar a más personas a enamorarse de esta increíble
-      profesión.
+      ¡Hola! Soy Luis Cervantes, estudiante de Ingeniería en Tecnologías
+      Computacionales en el Tecnológico de Monterrey y desarrollador Frontend
+      autodidacta. He creado proyectos personales y freelance usando React,
+      TypeScript, Tailwind CSS y Next.js, como el sitio del equipo Pasari y la
+      app educativa VASI. Busco seguir creciendo y participar en proyectos que
+      integren tecnología, diseño e innovación.
     </p>
   </div>
 </section>
+
+<style>
+  h2 {
+    margin-bottom: 20px !important;
+  }
+</style>
