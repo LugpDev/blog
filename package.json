@@ -21,6 +21,7 @@
     "@astrojs/tailwind": "^5.1.4",
     "@astrojs/vercel": "^8.0.1",
     "@fontsource-variable/space-grotesk": "^5.2.10",
+    "@fontsource/audiowide": "^5.2.7",
     "@iconify-json/devicon-plain": "^1.2.43",
     "@iconify-json/gravity-ui": "^1.2.10",
     "@iconify-json/ion": "^1.2.6",
