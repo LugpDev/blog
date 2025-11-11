@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html,
+  body {
+    font-family: "Space Grotesk Variable", sans-serif !important;
+  }
+
+  h1,
+  .subtitle {
+    font-family: "Audiowide", sans-serif !important;
+  }
+}
+
 .subtitle {
   @apply text-cyan-300 font-semibold text-2xl md:text-3xl mb-7;
 }
