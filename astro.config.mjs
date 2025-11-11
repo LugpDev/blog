@@ -22,4 +22,13 @@ export default defineConfig({
   image: {
     domains: ["res.cloudinary.com"],
   },
+  vite: {
+    ssr: {
+      noExternal: [
+        "@fontsource-variable/space-grotesk",
+        "@fontsource/audiowide",
+        "@fontsource/poppins",
+      ],
+    },
+  },
 });
